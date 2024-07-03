@@ -4,7 +4,6 @@ public class Constants {
     public static String EMPLOYEE_EXAMPLE_PUBLIC_DOMAIN= "https://dummy.restapiexample.com/";
     public static String EMPLOYEE_EXAMPLE_PUBLIC_URL_CONTEXT= "api/v1/";
     public static String EMPLOYEE_EXAMPLE_PUBLIC_GET_ALL= "employees";
-    public static String EMPLOYEE_EXAMPLE_PUBLIC_SEARCH= "search/";
 
     public static String NAME="name";
 

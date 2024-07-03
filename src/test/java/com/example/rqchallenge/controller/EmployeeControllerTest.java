@@ -86,7 +86,7 @@ public class EmployeeControllerTest {
     }
 
     @Test
-    void testCreateEmployee() throws JsonProcessingException {
+    void testCreateEmployee() {
         Map<String, Object> employeeInput = Map.of("name", "John Doe", "salary", "100000", "age", "30");
         EmployeeDetail employeeDetail = new EmployeeDetail();
         when(service.createEmployee(employeeInput)).thenReturn(ResponseEntity.ok(employeeDetail));

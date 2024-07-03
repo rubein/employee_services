@@ -18,7 +18,6 @@ import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.net.URI;
-import java.security.InvalidParameterException;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
@@ -53,7 +52,8 @@ public class EmployeeService {
 
     private EmployeeResponseStatus createErrorResponse(String message) {
         EmployeeResponseStatus errorResponse = new EmployeeResponseStatus();
-        errorResponse.setStatus("error");
+        log.error(message);
+        errorResponse.setStatus(Constants.ERROR);
         errorResponse.setData(new ArrayList<>());
         return errorResponse;
     }
