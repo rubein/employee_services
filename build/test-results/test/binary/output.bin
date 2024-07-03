@@ -1,0 +1,10 @@
+n22:18:00.423 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - Deleting employee with ID 1
+v22:18:00.514 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - Getting highest Salary for Employee
+o22:18:00.554 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - Deleting employee with ID 30
+j22:18:00.561 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - Looking for Tiger Nixon
+ñ22:18:00.562 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - response {"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"1000","employee_age":"25","profile_image":""}],"message":null}
+t22:18:00.570 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - Looking for TOP 10 highest earner
+q22:18:00.578 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - Looking for employee with id 1
+ë22:18:00.579 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - response {"status":"success","data":[{"id":"1","employee_name":"Tiger","employee_salary":"1000","employee_age":"25","profile_image":""}],"message":null}
+h22:18:00.583 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - Creating new Employee
+	h22:18:00.585 [Test worker] INFO com.example.rqchallenge.service.EmployeeService - Creating new Employee
